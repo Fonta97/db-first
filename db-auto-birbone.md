@@ -7,7 +7,7 @@ nome colonna        tipo di dato        attributi
  colore_principale  VARCHAR(16)         nullable
  km                 INT                 notnull
  cilindrata         INT                 nullable
- accidentata        BOOLEAN             default(false)
+ accidentata        TINYINT             default(false)
  peso               INT                 nullable
  allestimento       VARCHAR(16)         nullable
  euro               INT                 nullable
